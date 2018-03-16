@@ -1,0 +1,419 @@
+{
+    "docs": [
+        {
+            "location": "/", 
+            "text": "Lockbox for desktop\n\n\n\n\nInstall the extension\n\n\nInstall Lockbox\n\nHave questions about how Lockbox works? \nCheck out the FAQs\n\n\n\n\n\n\nContribute\n\n\nYou can also contribute by:\n\n\n\n\nDeveloping code\n\n\nReporting bugs\n\n\n\n\nLearn how to get started\n\n\n\n\nThe Lockbox extension is a simple, stand-alone password manager that works\nwith Firefox for desktop. It\u2019s the first of several planned experiments\ndesigned to help us test and improve password management and online\nsecurity.\n\n\nInstall it and sign in with your Firefox Account to encrypt your data with\ntamper-resistant block cipher technology. Then \nshare feedback\nhere\n.\n\n\nGet Started\n\n\n\n\n\n\nInstall Lockbox, and it will automatically disable Firefox\u2019s password manager.\n   \n\n\n\n\n\n\nCreate an entry with a website name, URL, username, and password.\n   \n\n\n\n\n\n\nSearch or browse in the toolbar menu or on the full tab to find the password you need.\n   \n\n\n\n\n\n\nSign up or sign in with a Firefox Account to encrypt your entries.\n   \n\n\n\n\n\n\nThis is just one component of the Lockbox product. Please see the \nLockbox\nwebsite\n for more documentation and context.", 
+            "title": "Introduction"
+        }, 
+        {
+            "location": "/#lockbox-for-desktop", 
+            "text": "Install the extension  Install Lockbox \nHave questions about how Lockbox works?  Check out the FAQs    Contribute  You can also contribute by:   Developing code  Reporting bugs   Learn how to get started   The Lockbox extension is a simple, stand-alone password manager that works\nwith Firefox for desktop. It\u2019s the first of several planned experiments\ndesigned to help us test and improve password management and online\nsecurity.  Install it and sign in with your Firefox Account to encrypt your data with\ntamper-resistant block cipher technology. Then  share feedback\nhere .", 
+            "title": "Lockbox for desktop"
+        }, 
+        {
+            "location": "/#get-started", 
+            "text": "Install Lockbox, and it will automatically disable Firefox\u2019s password manager.\n       Create an entry with a website name, URL, username, and password.\n       Search or browse in the toolbar menu or on the full tab to find the password you need.\n       Sign up or sign in with a Firefox Account to encrypt your entries.\n       This is just one component of the Lockbox product. Please see the  Lockbox\nwebsite  for more documentation and context.", 
+            "title": "Get Started"
+        }, 
+        {
+            "location": "/release-notes/", 
+            "text": "Lockbox Release Notes\n\n\n0.1.8-alpha\n\n\nDate: 2018-03-08\n\n\nWhat's New\n\n\n\n\nAdded support For Telemetry Scalars so we can easily tell how many items are stored in your Lockbox datastore (\n#552\n)\n\n\nMade it so the search box is automatically focused so you can start typing to search your entries immediately (\n#573\n)\n\n\nThe doorhanger also automatically fills the search with the domain of the current page you're viewing to help you quickly see matching entries (\n#616\n)\n\n\nImproved contrast and colors of the entry list for accessibility (\n#560\n)\n\n\nImproved interface colors and styles for entry list items (\n#553\n)\n\n\nImproved search bar interface style with a simpler \"Clear\" button (\n#562\n)\n\n\nRe-ordered the create/edit entry interface with improved spacing and styles (\n#567\n)\n\n\n\n\nWhat's Fixed\n\n\n\n\nItem notes with line breaks properly show those separate lines when editing (\n#596\n)\n\n\nThe \"reset Lockbox\" settings interface fits better in about:addons (\n#603\n)\n\n\nFixed alignment on the entry detail view so the buttons don't jump when switching between edit and view modes (\n#608\n)\n\n\n\n\nKnown Issues\n\n\n\n\nProfile information about you is only fetched and updated when you sign in; any changes made to your Firefox Accounts display name or avatar will not be displayed in Lockbox until you sign in again.\n\n\nOnce you link a Firefox Account to Lockbox, you cannot unlink it from that account.\n\n\nOnce you link a Firefox Account to Lockbox, signing in with a different account can render Lockbox unusable until you quit and restart Firefox.\n\n\nOnce you link a Firefox Account to Lockbox, resetting your Firefox Account password through \"forgot your password\" will render all your logins inaccessible; the only recourse is to reset Lockbox and start over.\n\n\nFirefox's default prompt to save logins is only disabled on new installs of this extension; updating Lockbox will not change your current Firefox preferences.\n\n\n\n\n0.1.7-alpha1\n\n\nDate: 2018-02-23\n\n\nThis release is to address a critical defect from the previous release.\n\n\nWhat's Fixed\n\n\n\n\nIf you linked your Firefox Account, Lockbox would stop working when you restart Firefox (\n#568\n)\n\n\n\n\nKnown Issues\n\n\n\n\nProfile information about you is only fetched and updated when you sign in; any changes made to your Firefox Accounts display name or avatar will not be displayed in Lockbox until you sign in again.\n\n\nOnce you link a Firefox Account to Lockbox, you cannot unlink it from that account.\n\n\nOnce you link a Firefox Account to Lockbox, signing in with a different account can render Lockbox unusable until you quit and restart Firefox.\n\n\nOnce you link a Firefox Account to Lockbox, resetting your Firefox Account password through \"forgot your password\" will render all your logins inaccessible; the only recourse is to reset Lockbox and start over.\n\n\nFirefox's default prompt to save logins is only disabled on new installs of this extension; updating Lockbox will not change your current Firefox preferences.\n\n\n\n\n0.1.7-alpha\n\n\nDate: 2018-02-22\n\n\nWhat's New\n\n\n\n\nTo provide you with a closer brand experience with Firefox, the visual design and interaction of the account actions dropdown in the full editor view better aligns with Firefox's \nPhoton design\n (\n#524\n)\n\n\n\n\nWhat's Fixed\n\n\n\n\nIf you use Lockbox in \"Guest\" mode (not linked to a Firefox Account), it can be unusable when Firefox is next restarted (\n#542\n) \n\n\nVia Greenkeeper:\n\n\nUpdated \nevents\n dependency (\n#509\n)\n\n\nUpdated \nbabel-minify-webpack-plugin\n dependency (\n#525\n)\n\n\nUpdated \neslint-plugin-node\n dependency (\n#518\n)\n\n\nUpdated \neslint-plugin-mozilla\n dependency (\n#546\n)\n\n\n\n\n\n\n\n\nKnown Issues\n\n\n\n\nProfile information about you is only fetched and updated when you sign in; any changes made to your Firefox Accounts display name or avatar will not be displayed in Lockbox until you sign in again.\n\n\nOnce you link a Firefox Account to Lockbox, you cannot unlink it from that account.\n\n\nOnce you link a Firefox Account to Lockbox, signing in with a different account can render Lockbox unusable until you quit and restart Firefox.\n\n\nOnce you link a Firefox Account to Lockbox, resetting your Firefox Account password through \"forgot your password\" will render all your logins inaccessible; the only recourse is to reset Lockbox and start over.\n\n\nFirefox's default prompt to save logins is only disabled on new installs of this extension; updating Lockbox will not change your current Firefox preferences.\n\n\n\n\n0.1.6-alpha\n\n\nDate: 2018-02-08\n\n\nWhat's New\n\n\n\n\nWhen you copy a username or password from the doorhanger to the clipboard, you now get confirmation of that action (\n#318\n)\n\n\nWhen signed in with the full editor view open, it displays additional profile information you have set on Firefox Accounts to better personalize your experience (\n#417\n)\n\n\nWhen signed in with the full editor view open, you can better manage your Firefox Account (\n#442\n)\n\n\nYou can now sign out of Lockbox, locking down your entries without quitting Firefox (\n#149\n)\n\n\n\n\nWhat's Fixed\n\n\n\n\nCleaned up obsolete or erroneous localization usage (\n#240\n)\n\n\nActivated Greenkeeper to mitigate stale dependencies (\n#276\n)\n\n\nUpdated \nstyle-loader\n dependency (\n#502\n)\n\n\n\n\n\n\n\n\nKnown Issues\n\n\n\n\nOnce you link a Firefox Account to Lockbox, you cannot unlink it from that account.\n\n\nOnce you link a Firefox Account to Lockbox, signing in with a different account can render Lockbox unusable until you quit and restart Firefox.\n\n\nOnce you link a Firefox Account to Lockbox, resetting your Firefox Account password through \"forgot your password\" will render all your logins inaccessible; the only recourse is to reset Lockbox and start over.\n\n\nFirefox's default prompt to save logins is only disabled on new installs of this extension; updating Lockbox will not change your current Firefox preferences.\n\n\n\n\n0.1.5-alpha\n\n\nDate: 2018-01-30\n\n\nWhat's New\n\n\n\n\nThere is a version query param to the SurveyGizmo link for better feedback tracking (\n#388\n)\n\n\nWe're now using greenkeeper to help keep up dependencies (\n#276\n)\n\n\n\n\nWhat's Fixed\n\n\n\n\nAddressed a syntax error causing warnings in the build around the prop type:ScrollingList (\n#451\n)\n\n\nClicking \"New entry\" button while editing an entry no longer duplicates the entry (\n#438\n)\n\n\nAdded stylelint CSS linter to better catch programming errors (\n#352\n)\n\n\nThe \nexpires_at\n value during FxA login is now valid (\n#430\n)\n\n\nThe \"guest mode\" key is now defined in the extension and not the shared datastore module (\n#435\n)\n\n\nThere is no longer an odd blue background when selecting items from left side list (\n#414\n)\n\n\n\n\nKnown Issues\n\n\n\n\nOnce you link a Firefox Account to Lockbox, you cannot unlink it from that account.\n\n\nOnce you link a Firefox Account to Lockbox, signing in with a different account can render Lockbox unusable until you quit and restart Firefox.\n\n\nOnce you link a Firefox Account to Lockbox, resetting your Firefox Account password through \"forgot your password\" will render all your logins inaccessible; the only recourse is to reset Lockbox and start over.\n\n\nFirefox's default prompt to save logins is only disabled on new installs of this extension; updating Lockbox will not change your current Firefox preferences.\n\n\n\n\n0.1.4-alpha\n\n\nDate: 2017-12-13\n\n\nWhat's New\n\n\n\n\nAccess your saved Lockbox entries from a doorhanger experience (\n#338\n)\n\n\nSecure your Lockbox with a Firefox Account (\n#362\n)\n\n\nSee the visual design and polish come together for the entire experience (\n#351\n)\n\n\nGet help and instructions when you first get started (\n#392\n)\n\n\nGet additional support from the updated \nLockbox website\n, including the FAQ (\n#345\n)\n\n\n\n\nKnown Issues\n\n\n\n\nAny existing Lockbox entries from previous versions have been removed.\n Previous versions were storing and encrypting data differently than we are now. In order to add our new security features your old data can no longer be read/accessed and you'll see an empty state after you upgrade.\n\n\nOnce you link a Firefox Account to Lockbox, you cannot unlink it from that account.\n\n\nOnce you link a Firefox Account to Lockbox, signing in with a different account can render Lockbox unusable until you quit and restart Firefox.\n\n\nOnce you link a Firefox Account to Lockbox, resetting your Firefox Account password through \"forgot your password\" will render all your logins inaccessible; the only recourse is to reset Lockbox and start over.\n\n\nFirefox's default prompt to save logins is only disabled on new installs of this extension; updating Lockbox will not change your current Firefox preferences.\n\n\n\n\n0.1.3-alpha\n\n\nDate: 2017-11-29\n\n\nWhat's New\n\n\n\n\nWe added placeholder text into the item editor to help show what's expected  (\n#336\n)\n\n\nEvery time the \"Copy\" button is used we'll log a Telemetry event (\n#342\n)\n\n\n\n\nWhat's Fixed\n\n\n\n\nOur friendly monster looks a bit better on light backgrounds (\n#347\n)\n\n\nWe've updated some dependencies, including React, so that we're using and testing against the latest and greatest (\n#346\n) (\n#335\n)\n\n\n\n\nKnown Issues\n\n\n\n\nThis is pre-release software subject to change. Your data may not be retained.\n\n\nThere is no way to change your Lockbox master password. If you forget your master password, you'll need to start over fresh by either:\n\n\nOpening the this extension's Preferences and clicking the \"\n\ud83d\udca5\ud83d\udca3 Reset \ud83d\udca3\ud83d\udca5\n\" button; or\n\n\nUninstalling and re-installing the extension\n\n\nFirefox's default prompt to save logins is only disabled on new installs of this extension; updating Lockbox will not change your current Firefox preferences.\n\n\n\n\n0.1.2-alpha\n\n\nDate: 2017-11-13\n\n\nWhat's New\n\n\n\n\nInterface styles updated to more closely match Photon design language (\n#295\n) (\n#307\n)\n\n\nImproved user interface design on welcome screen and home page (\n#300\n)\n\n\nUpdated content throughout the interface to guide the user experience (\n#165\n)\n\n\n\n\nWhat's Fixed\n\n\n\n\nClicking the toolbar (browser action) icon would not open the editor if the editor was opened and the user changed the URL (\n#262\n)\n\n\nThe toolbar icon did not invert to light colors on dark themes (\n#306\n)\n\n\n\n\nKnown Issues\n\n\n\n\nThis is pre-release software subject to change. Your data may not be retained.\n\n\nThere is no way to change your Lockbox master password. If you forget your master password, you'll need to start over fresh by either:\n\n\nOpening the this extension's Preferences and clicking the \"\n\ud83d\udca5\ud83d\udca3 Reset \ud83d\udca3\ud83d\udca5\n\" button; or\n\n\nUninstalling and re-installing the extension\n\n\nFirefox's default prompt to save logins is only disabled on new installs of this extension; updating Lockbox will not change your current Firefox preferences.\n\n\n\n\n0.1.1-alpha1\n\n\nDate: 2017-11-01\n\n\nWhat's Fixed\n\n\n\n\nWe added language to the first-run experience to remind testers that this is pre-release software and both \nsubject to change and data may not be retained\n.\n\n\n\n\nKnown Issues\n\n\n\n\nThere is no way to change your Lockbox master password.  If you forget your master password, you'll need to start over fresh by either:\n\n\nOpening the this extension's Preferences and clicking the \"\n\ud83d\udca5\ud83d\udca3 Reset \ud83d\udca3\ud83d\udca5\n\" button; or\n\n\nUninstalling and re-installing the extension\n\n\nFirefox's default prompt to save logins is only disabled on new installs of this extension; updating Lockbox will not change your current Firefox preferences.\n\n\n\n\n0.1.1-alpha\n\n\nDate: 2017-10-30\n\n\nWhat's New\n\n\n\n\nWhen installing this extension, Firefox will no longer prompt to save logins. Any logins saved in Firefox are still there, and you can still use it to autofill login forms, but the browser will not prompt to save new ones. This feature will be re-enabled if you uninstall Lockbox, and can be manually changed by the user in Firefox's preferences.(\n#211\n)\n\n\nYou now have the ability to reset Lockbox and start from scratch.(\n#137\n)\n\n\nFront-end validation of fields in the editor (\n#207\n)\n\n\nNew Alpha installations can now happen from \nthis page\n versus the email distribution of the link which results in a blank page after install.\n\n\n\n\nWhat's Fixed\n\n\n\n\nImproved localization including page titles (\n#225\n) and default locale consistency (\n#140\n)\n\n\nShow/Hide password field no longer resizes the window (\n#179\n)\n\n\nModal dialogs behave more consistently and even keeps entered text if the modal closes (\n#162\n)\n\n\n\n\nKnown Issues\n\n\n\n\nThere is no way to change your Lockbox master password.  If you forget your master password, you'll need to start over fresh by either:\n\n\nOpening the this extension's Preferences and clicking the \"\n\ud83d\udca5\ud83d\udca3 Reset \ud83d\udca3\ud83d\udca5\n\" button; or\n\n\nUninstalling and re-installing the extension\n\n\nFirefox's default prompt to save logins is only disabled on new installs of this extension; updating Lockbox will not change your current Firefox preferences.\n\n\n\n\n0.1.0-alpha1\n\n\nDate: 2017-10-16\n\n\nWhat's New\n\n\nThis is a pre-release of the Lockbox password manager for internal Mozilla employees.\n\n\nThis starts as a signed Firefox extension where you can:\n\n\n\n\nCreate a Lockbox account with a master password to lock/unlock your data\n\n\nView entries\n\n\nSearch entries\n\n\nAdd, edit, and delete entries\n\n\nCopy username and password to clipboard\n\n\nSubmit feedback\n\n\n\n\nKnown Issues\n\n\n\n\nLockbox has only been tested on Firefox 57 and above.  Installing on Firefox 56 or lower may not function at all.\n\n\nThere is no way to reset your Lockbox master password. If you forget your master password, you'll need to start over fresh by uninstalling and re-installing this extension.\n\n\nThis is a Lockbox account, which stays local to your Firefox installation. There is no integration with Firefox accounts to sync (yet).", 
+            "title": "Release Notes"
+        }, 
+        {
+            "location": "/release-notes/#lockbox-release-notes", 
+            "text": "", 
+            "title": "Lockbox Release Notes"
+        }, 
+        {
+            "location": "/release-notes/#018-alpha", 
+            "text": "Date: 2018-03-08", 
+            "title": "0.1.8-alpha"
+        }, 
+        {
+            "location": "/release-notes/#whats-new", 
+            "text": "Added support For Telemetry Scalars so we can easily tell how many items are stored in your Lockbox datastore ( #552 )  Made it so the search box is automatically focused so you can start typing to search your entries immediately ( #573 )  The doorhanger also automatically fills the search with the domain of the current page you're viewing to help you quickly see matching entries ( #616 )  Improved contrast and colors of the entry list for accessibility ( #560 )  Improved interface colors and styles for entry list items ( #553 )  Improved search bar interface style with a simpler \"Clear\" button ( #562 )  Re-ordered the create/edit entry interface with improved spacing and styles ( #567 )", 
+            "title": "What's New"
+        }, 
+        {
+            "location": "/release-notes/#whats-fixed", 
+            "text": "Item notes with line breaks properly show those separate lines when editing ( #596 )  The \"reset Lockbox\" settings interface fits better in about:addons ( #603 )  Fixed alignment on the entry detail view so the buttons don't jump when switching between edit and view modes ( #608 )", 
+            "title": "What's Fixed"
+        }, 
+        {
+            "location": "/release-notes/#known-issues", 
+            "text": "Profile information about you is only fetched and updated when you sign in; any changes made to your Firefox Accounts display name or avatar will not be displayed in Lockbox until you sign in again.  Once you link a Firefox Account to Lockbox, you cannot unlink it from that account.  Once you link a Firefox Account to Lockbox, signing in with a different account can render Lockbox unusable until you quit and restart Firefox.  Once you link a Firefox Account to Lockbox, resetting your Firefox Account password through \"forgot your password\" will render all your logins inaccessible; the only recourse is to reset Lockbox and start over.  Firefox's default prompt to save logins is only disabled on new installs of this extension; updating Lockbox will not change your current Firefox preferences.", 
+            "title": "Known Issues"
+        }, 
+        {
+            "location": "/release-notes/#017-alpha1", 
+            "text": "Date: 2018-02-23  This release is to address a critical defect from the previous release.", 
+            "title": "0.1.7-alpha1"
+        }, 
+        {
+            "location": "/release-notes/#whats-fixed_1", 
+            "text": "If you linked your Firefox Account, Lockbox would stop working when you restart Firefox ( #568 )", 
+            "title": "What's Fixed"
+        }, 
+        {
+            "location": "/release-notes/#known-issues_1", 
+            "text": "Profile information about you is only fetched and updated when you sign in; any changes made to your Firefox Accounts display name or avatar will not be displayed in Lockbox until you sign in again.  Once you link a Firefox Account to Lockbox, you cannot unlink it from that account.  Once you link a Firefox Account to Lockbox, signing in with a different account can render Lockbox unusable until you quit and restart Firefox.  Once you link a Firefox Account to Lockbox, resetting your Firefox Account password through \"forgot your password\" will render all your logins inaccessible; the only recourse is to reset Lockbox and start over.  Firefox's default prompt to save logins is only disabled on new installs of this extension; updating Lockbox will not change your current Firefox preferences.", 
+            "title": "Known Issues"
+        }, 
+        {
+            "location": "/release-notes/#017-alpha", 
+            "text": "Date: 2018-02-22", 
+            "title": "0.1.7-alpha"
+        }, 
+        {
+            "location": "/release-notes/#whats-new_1", 
+            "text": "To provide you with a closer brand experience with Firefox, the visual design and interaction of the account actions dropdown in the full editor view better aligns with Firefox's  Photon design  ( #524 )", 
+            "title": "What's New"
+        }, 
+        {
+            "location": "/release-notes/#whats-fixed_2", 
+            "text": "If you use Lockbox in \"Guest\" mode (not linked to a Firefox Account), it can be unusable when Firefox is next restarted ( #542 )   Via Greenkeeper:  Updated  events  dependency ( #509 )  Updated  babel-minify-webpack-plugin  dependency ( #525 )  Updated  eslint-plugin-node  dependency ( #518 )  Updated  eslint-plugin-mozilla  dependency ( #546 )", 
+            "title": "What's Fixed"
+        }, 
+        {
+            "location": "/release-notes/#known-issues_2", 
+            "text": "Profile information about you is only fetched and updated when you sign in; any changes made to your Firefox Accounts display name or avatar will not be displayed in Lockbox until you sign in again.  Once you link a Firefox Account to Lockbox, you cannot unlink it from that account.  Once you link a Firefox Account to Lockbox, signing in with a different account can render Lockbox unusable until you quit and restart Firefox.  Once you link a Firefox Account to Lockbox, resetting your Firefox Account password through \"forgot your password\" will render all your logins inaccessible; the only recourse is to reset Lockbox and start over.  Firefox's default prompt to save logins is only disabled on new installs of this extension; updating Lockbox will not change your current Firefox preferences.", 
+            "title": "Known Issues"
+        }, 
+        {
+            "location": "/release-notes/#016-alpha", 
+            "text": "Date: 2018-02-08", 
+            "title": "0.1.6-alpha"
+        }, 
+        {
+            "location": "/release-notes/#whats-new_2", 
+            "text": "When you copy a username or password from the doorhanger to the clipboard, you now get confirmation of that action ( #318 )  When signed in with the full editor view open, it displays additional profile information you have set on Firefox Accounts to better personalize your experience ( #417 )  When signed in with the full editor view open, you can better manage your Firefox Account ( #442 )  You can now sign out of Lockbox, locking down your entries without quitting Firefox ( #149 )", 
+            "title": "What's New"
+        }, 
+        {
+            "location": "/release-notes/#whats-fixed_3", 
+            "text": "Cleaned up obsolete or erroneous localization usage ( #240 )  Activated Greenkeeper to mitigate stale dependencies ( #276 )  Updated  style-loader  dependency ( #502 )", 
+            "title": "What's Fixed"
+        }, 
+        {
+            "location": "/release-notes/#known-issues_3", 
+            "text": "Once you link a Firefox Account to Lockbox, you cannot unlink it from that account.  Once you link a Firefox Account to Lockbox, signing in with a different account can render Lockbox unusable until you quit and restart Firefox.  Once you link a Firefox Account to Lockbox, resetting your Firefox Account password through \"forgot your password\" will render all your logins inaccessible; the only recourse is to reset Lockbox and start over.  Firefox's default prompt to save logins is only disabled on new installs of this extension; updating Lockbox will not change your current Firefox preferences.", 
+            "title": "Known Issues"
+        }, 
+        {
+            "location": "/release-notes/#015-alpha", 
+            "text": "Date: 2018-01-30", 
+            "title": "0.1.5-alpha"
+        }, 
+        {
+            "location": "/release-notes/#whats-new_3", 
+            "text": "There is a version query param to the SurveyGizmo link for better feedback tracking ( #388 )  We're now using greenkeeper to help keep up dependencies ( #276 )", 
+            "title": "What's New"
+        }, 
+        {
+            "location": "/release-notes/#whats-fixed_4", 
+            "text": "Addressed a syntax error causing warnings in the build around the prop type:ScrollingList ( #451 )  Clicking \"New entry\" button while editing an entry no longer duplicates the entry ( #438 )  Added stylelint CSS linter to better catch programming errors ( #352 )  The  expires_at  value during FxA login is now valid ( #430 )  The \"guest mode\" key is now defined in the extension and not the shared datastore module ( #435 )  There is no longer an odd blue background when selecting items from left side list ( #414 )", 
+            "title": "What's Fixed"
+        }, 
+        {
+            "location": "/release-notes/#known-issues_4", 
+            "text": "Once you link a Firefox Account to Lockbox, you cannot unlink it from that account.  Once you link a Firefox Account to Lockbox, signing in with a different account can render Lockbox unusable until you quit and restart Firefox.  Once you link a Firefox Account to Lockbox, resetting your Firefox Account password through \"forgot your password\" will render all your logins inaccessible; the only recourse is to reset Lockbox and start over.  Firefox's default prompt to save logins is only disabled on new installs of this extension; updating Lockbox will not change your current Firefox preferences.", 
+            "title": "Known Issues"
+        }, 
+        {
+            "location": "/release-notes/#014-alpha", 
+            "text": "Date: 2017-12-13", 
+            "title": "0.1.4-alpha"
+        }, 
+        {
+            "location": "/release-notes/#whats-new_4", 
+            "text": "Access your saved Lockbox entries from a doorhanger experience ( #338 )  Secure your Lockbox with a Firefox Account ( #362 )  See the visual design and polish come together for the entire experience ( #351 )  Get help and instructions when you first get started ( #392 )  Get additional support from the updated  Lockbox website , including the FAQ ( #345 )", 
+            "title": "What's New"
+        }, 
+        {
+            "location": "/release-notes/#known-issues_5", 
+            "text": "Any existing Lockbox entries from previous versions have been removed.  Previous versions were storing and encrypting data differently than we are now. In order to add our new security features your old data can no longer be read/accessed and you'll see an empty state after you upgrade.  Once you link a Firefox Account to Lockbox, you cannot unlink it from that account.  Once you link a Firefox Account to Lockbox, signing in with a different account can render Lockbox unusable until you quit and restart Firefox.  Once you link a Firefox Account to Lockbox, resetting your Firefox Account password through \"forgot your password\" will render all your logins inaccessible; the only recourse is to reset Lockbox and start over.  Firefox's default prompt to save logins is only disabled on new installs of this extension; updating Lockbox will not change your current Firefox preferences.", 
+            "title": "Known Issues"
+        }, 
+        {
+            "location": "/release-notes/#013-alpha", 
+            "text": "Date: 2017-11-29", 
+            "title": "0.1.3-alpha"
+        }, 
+        {
+            "location": "/release-notes/#whats-new_5", 
+            "text": "We added placeholder text into the item editor to help show what's expected  ( #336 )  Every time the \"Copy\" button is used we'll log a Telemetry event ( #342 )", 
+            "title": "What's New"
+        }, 
+        {
+            "location": "/release-notes/#whats-fixed_5", 
+            "text": "Our friendly monster looks a bit better on light backgrounds ( #347 )  We've updated some dependencies, including React, so that we're using and testing against the latest and greatest ( #346 ) ( #335 )", 
+            "title": "What's Fixed"
+        }, 
+        {
+            "location": "/release-notes/#known-issues_6", 
+            "text": "This is pre-release software subject to change. Your data may not be retained.  There is no way to change your Lockbox master password. If you forget your master password, you'll need to start over fresh by either:  Opening the this extension's Preferences and clicking the \" \ud83d\udca5\ud83d\udca3 Reset \ud83d\udca3\ud83d\udca5 \" button; or  Uninstalling and re-installing the extension  Firefox's default prompt to save logins is only disabled on new installs of this extension; updating Lockbox will not change your current Firefox preferences.", 
+            "title": "Known Issues"
+        }, 
+        {
+            "location": "/release-notes/#012-alpha", 
+            "text": "Date: 2017-11-13", 
+            "title": "0.1.2-alpha"
+        }, 
+        {
+            "location": "/release-notes/#whats-new_6", 
+            "text": "Interface styles updated to more closely match Photon design language ( #295 ) ( #307 )  Improved user interface design on welcome screen and home page ( #300 )  Updated content throughout the interface to guide the user experience ( #165 )", 
+            "title": "What's New"
+        }, 
+        {
+            "location": "/release-notes/#whats-fixed_6", 
+            "text": "Clicking the toolbar (browser action) icon would not open the editor if the editor was opened and the user changed the URL ( #262 )  The toolbar icon did not invert to light colors on dark themes ( #306 )", 
+            "title": "What's Fixed"
+        }, 
+        {
+            "location": "/release-notes/#known-issues_7", 
+            "text": "This is pre-release software subject to change. Your data may not be retained.  There is no way to change your Lockbox master password. If you forget your master password, you'll need to start over fresh by either:  Opening the this extension's Preferences and clicking the \" \ud83d\udca5\ud83d\udca3 Reset \ud83d\udca3\ud83d\udca5 \" button; or  Uninstalling and re-installing the extension  Firefox's default prompt to save logins is only disabled on new installs of this extension; updating Lockbox will not change your current Firefox preferences.", 
+            "title": "Known Issues"
+        }, 
+        {
+            "location": "/release-notes/#011-alpha1", 
+            "text": "Date: 2017-11-01", 
+            "title": "0.1.1-alpha1"
+        }, 
+        {
+            "location": "/release-notes/#whats-fixed_7", 
+            "text": "We added language to the first-run experience to remind testers that this is pre-release software and both  subject to change and data may not be retained .", 
+            "title": "What's Fixed"
+        }, 
+        {
+            "location": "/release-notes/#known-issues_8", 
+            "text": "There is no way to change your Lockbox master password.  If you forget your master password, you'll need to start over fresh by either:  Opening the this extension's Preferences and clicking the \" \ud83d\udca5\ud83d\udca3 Reset \ud83d\udca3\ud83d\udca5 \" button; or  Uninstalling and re-installing the extension  Firefox's default prompt to save logins is only disabled on new installs of this extension; updating Lockbox will not change your current Firefox preferences.", 
+            "title": "Known Issues"
+        }, 
+        {
+            "location": "/release-notes/#011-alpha", 
+            "text": "Date: 2017-10-30", 
+            "title": "0.1.1-alpha"
+        }, 
+        {
+            "location": "/release-notes/#whats-new_7", 
+            "text": "When installing this extension, Firefox will no longer prompt to save logins. Any logins saved in Firefox are still there, and you can still use it to autofill login forms, but the browser will not prompt to save new ones. This feature will be re-enabled if you uninstall Lockbox, and can be manually changed by the user in Firefox's preferences.( #211 )  You now have the ability to reset Lockbox and start from scratch.( #137 )  Front-end validation of fields in the editor ( #207 )  New Alpha installations can now happen from  this page  versus the email distribution of the link which results in a blank page after install.", 
+            "title": "What's New"
+        }, 
+        {
+            "location": "/release-notes/#whats-fixed_8", 
+            "text": "Improved localization including page titles ( #225 ) and default locale consistency ( #140 )  Show/Hide password field no longer resizes the window ( #179 )  Modal dialogs behave more consistently and even keeps entered text if the modal closes ( #162 )", 
+            "title": "What's Fixed"
+        }, 
+        {
+            "location": "/release-notes/#known-issues_9", 
+            "text": "There is no way to change your Lockbox master password.  If you forget your master password, you'll need to start over fresh by either:  Opening the this extension's Preferences and clicking the \" \ud83d\udca5\ud83d\udca3 Reset \ud83d\udca3\ud83d\udca5 \" button; or  Uninstalling and re-installing the extension  Firefox's default prompt to save logins is only disabled on new installs of this extension; updating Lockbox will not change your current Firefox preferences.", 
+            "title": "Known Issues"
+        }, 
+        {
+            "location": "/release-notes/#010-alpha1", 
+            "text": "Date: 2017-10-16", 
+            "title": "0.1.0-alpha1"
+        }, 
+        {
+            "location": "/release-notes/#whats-new_8", 
+            "text": "This is a pre-release of the Lockbox password manager for internal Mozilla employees.  This starts as a signed Firefox extension where you can:   Create a Lockbox account with a master password to lock/unlock your data  View entries  Search entries  Add, edit, and delete entries  Copy username and password to clipboard  Submit feedback", 
+            "title": "What's New"
+        }, 
+        {
+            "location": "/release-notes/#known-issues_10", 
+            "text": "Lockbox has only been tested on Firefox 57 and above.  Installing on Firefox 56 or lower may not function at all.  There is no way to reset your Lockbox master password. If you forget your master password, you'll need to start over fresh by uninstalling and re-installing this extension.  This is a Lockbox account, which stays local to your Firefox installation. There is no integration with Firefox accounts to sync (yet).", 
+            "title": "Known Issues"
+        }, 
+        {
+            "location": "/faqs/", 
+            "text": "What\u2019s the difference between Lockbox and the Firefox password manager?\n\n\nFirefox password manager is the built-in feature that saves and autofills website login information. You can protect these logins with a master password. \n\n\nLockbox is a stand-alone password manager extension that you can secure with a Firefox Account for newer encryption than what is offered with password manager. \n\n\nThe alpha version of Lockbox lets you create, store and manage entries (a site\u2019s username and password) and copy and paste login information. We realize managing passwords this way may feel very manual, but we plan to add features like autofill and password generation in future releases. We are also working to build cloud backup, create a mobile app, and support multiple browsers.\n\n\nCan I use Lockbox and the Firefox password manager at the same time?\n\n\nNo. When you install Lockbox, Firefox automatically disables the password manager. If you disable or delete Lockbox, Firefox re-enables password manager on the browser\u2019s next restart.\n\n\nIf I disable or delete Lockbox, will login information from my entries transfer into the password manager?\n\n\nNo. But login information you previously added to password manager will still be available.\n\n\nDoes Lockbox import my information from password manager?\n\n\nNot in the current alpha version.\n\n\nWhat security technology does Lockbox use?\n\n\nWhen you protect Lockbox with a Firefox Account, Lockbox uses \nAES256-GCM\n encryption, a tamper-resistent block cipher technology, to protect your data. Lockbox also uses \nHMAC SHA-256\n to \u201chash\u201d searchable data for additional security. \n\n\nHow do I disable or delete Lockbox?\n\n\n\n\nClick the menu button \n\n and choose Add-ons \n\n\n or \n Lockbox\n\n\n\n\nIf I delete Lockbox, what happens to the entries I\u2019ve saved?\n\n\nThe alpha version of Lockbox doesn\u2019t offer backup or synchronization. You\u2019ll need to re-add login information to Lockbox after installing it again.\n\n\nWhat if I forget my Firefox Account password?\n\n\nFirefox Accounts do not offer password recovery functionality. If you added a Firefox Account to Lockbox and forget your password, you\u2019ll need to reset your Firefox Account. Note that you\u2019ll lose all saved Lockbox entries.\n\n\nWill Lockbox work with other password managers?\n\n\nThe alpha version of Lockbox hasn\u2019t been tested widely with other password managers. We recommend disabling or deleting other password managers from Firefox before installing Lockbox.\n\n\nDo Lockbox entries sync to other computers with Lockbox installed?\n\n\nYes, if you secure Lockbox with a Firefox Account.\n\n\nCan I try Lockbox if I don\u2019t have a Mozilla.com email address?\n\n\nSure. To get started, click the \nInstall Lockbox\n button on the Introduction page. Note that this is an alpha version. Features and functionality will change as we continue developing Lockbox.\n\n\nIf I already have a Firefox Account, can I create a separate Firefox Account to use only with Lockbox?\n\n\nYou can create a new account using a different email address than the one you use for your existing Firefox Account. Note that the new Firefox Account won\u2019t sync bookmarks, history and open tabs unless you use it to sign into the browser.", 
+            "title": "FAQs"
+        }, 
+        {
+            "location": "/faqs/#whats-the-difference-between-lockbox-and-the-firefox-password-manager", 
+            "text": "Firefox password manager is the built-in feature that saves and autofills website login information. You can protect these logins with a master password.   Lockbox is a stand-alone password manager extension that you can secure with a Firefox Account for newer encryption than what is offered with password manager.   The alpha version of Lockbox lets you create, store and manage entries (a site\u2019s username and password) and copy and paste login information. We realize managing passwords this way may feel very manual, but we plan to add features like autofill and password generation in future releases. We are also working to build cloud backup, create a mobile app, and support multiple browsers.", 
+            "title": "What\u2019s the difference between Lockbox and the Firefox password manager?"
+        }, 
+        {
+            "location": "/faqs/#can-i-use-lockbox-and-the-firefox-password-manager-at-the-same-time", 
+            "text": "No. When you install Lockbox, Firefox automatically disables the password manager. If you disable or delete Lockbox, Firefox re-enables password manager on the browser\u2019s next restart.", 
+            "title": "Can I use Lockbox and the Firefox password manager at the same time?"
+        }, 
+        {
+            "location": "/faqs/#if-i-disable-or-delete-lockbox-will-login-information-from-my-entries-transfer-into-the-password-manager", 
+            "text": "No. But login information you previously added to password manager will still be available.", 
+            "title": "If I disable or delete Lockbox, will login information from my entries transfer into the password manager?"
+        }, 
+        {
+            "location": "/faqs/#does-lockbox-import-my-information-from-password-manager", 
+            "text": "Not in the current alpha version.", 
+            "title": "Does Lockbox import my information from password manager?"
+        }, 
+        {
+            "location": "/faqs/#what-security-technology-does-lockbox-use", 
+            "text": "When you protect Lockbox with a Firefox Account, Lockbox uses  AES256-GCM  encryption, a tamper-resistent block cipher technology, to protect your data. Lockbox also uses  HMAC SHA-256  to \u201chash\u201d searchable data for additional security.", 
+            "title": "What security technology does Lockbox use?"
+        }, 
+        {
+            "location": "/faqs/#how-do-i-disable-or-delete-lockbox", 
+            "text": "Click the menu button  \n and choose Add-ons    or   Lockbox", 
+            "title": "How do I disable or delete Lockbox?"
+        }, 
+        {
+            "location": "/faqs/#if-i-delete-lockbox-what-happens-to-the-entries-ive-saved", 
+            "text": "The alpha version of Lockbox doesn\u2019t offer backup or synchronization. You\u2019ll need to re-add login information to Lockbox after installing it again.", 
+            "title": "If I delete Lockbox, what happens to the entries I\u2019ve saved?"
+        }, 
+        {
+            "location": "/faqs/#what-if-i-forget-my-firefox-account-password", 
+            "text": "Firefox Accounts do not offer password recovery functionality. If you added a Firefox Account to Lockbox and forget your password, you\u2019ll need to reset your Firefox Account. Note that you\u2019ll lose all saved Lockbox entries.", 
+            "title": "What if I forget my Firefox Account password?"
+        }, 
+        {
+            "location": "/faqs/#will-lockbox-work-with-other-password-managers", 
+            "text": "The alpha version of Lockbox hasn\u2019t been tested widely with other password managers. We recommend disabling or deleting other password managers from Firefox before installing Lockbox.", 
+            "title": "Will Lockbox work with other password managers?"
+        }, 
+        {
+            "location": "/faqs/#do-lockbox-entries-sync-to-other-computers-with-lockbox-installed", 
+            "text": "Yes, if you secure Lockbox with a Firefox Account.", 
+            "title": "Do Lockbox entries sync to other computers with Lockbox installed?"
+        }, 
+        {
+            "location": "/faqs/#can-i-try-lockbox-if-i-dont-have-a-mozillacom-email-address", 
+            "text": "Sure. To get started, click the  Install Lockbox  button on the Introduction page. Note that this is an alpha version. Features and functionality will change as we continue developing Lockbox.", 
+            "title": "Can I try Lockbox if I don\u2019t have a Mozilla.com email address?"
+        }, 
+        {
+            "location": "/faqs/#if-i-already-have-a-firefox-account-can-i-create-a-separate-firefox-account-to-use-only-with-lockbox", 
+            "text": "You can create a new account using a different email address than the one you use for your existing Firefox Account. Note that the new Firefox Account won\u2019t sync bookmarks, history and open tabs unless you use it to sign into the browser.", 
+            "title": "If I already have a Firefox Account, can I create a separate Firefox Account to use only with Lockbox?"
+        }, 
+        {
+            "location": "/contributing/", 
+            "text": "Contributing\n\n\nThank you for considering and taking the time to contribute!\n\n\nThe following are guidelines for contributing to this project.\n\n\nCode of Conduct\n\n\nThis repository is governed by Mozilla's code of conduct and etiquette guidelines. For more details please see the \nMozilla Community Participation Guidelines\n and \nDeveloper Etiquette Guidelines\n.\n\n\nHow to Get Started\n\n\nPlease refer to installation and build instructions in the \ninstall documentation\n.\n\n\nHow to Report Bugs\n\n\nPlease open \na new issue in the appropriate GitHub repository\n with steps to reproduce the problem you're experiencing.\n\n\nBe sure to include as much information including screenshots, text output, and both your expected and actual results.\n\n\nHow to Request Enhancements\n\n\nFirst, please refer to the applicable \nGitHub repository\n and search \nthe repository's GitHub issues\n to make sure your idea has not been (or is not still) considered. It may also be easier to see and search across all projects combined on our \nWaffle.io planning board\n.\n\n\nThen, please \ncreate a new issue in the GitHub repository\n describing your enhancement.\n\n\nBe sure to include as much detail as possible including step-by-step descriptions, specific examples, screenshots or mockups, and reasoning for why the enhancement might be worthwhile.\n\n\nPlease keep in mind, by opening an issue we provide no guarantee the enhancement will be implemented.\n\n\nHow to Contribute Code\n\n\nBefore you get started writing code, be sure what you plan to work on is something we'll be able to accept. The easiest way is to look through out list of \ngood first issues\n and find something that sounds interesting.\n\n\nIf there's something else you'd like to work on, just add a comment in the relevant issue and we'll be happy to discuss your plans. If you have an idea that doesn't have an issue at all, be sure to \nfile an issue\n first.\n\n\nOnce you have a patch ready, submit a pull request and request a review from \n@mozilla-lockbox/engineering\n. From there, we'll guide you through the review process to the eventual landing of your code! We aim to respond to all review requests within two business days.", 
+            "title": "Contribute"
+        }, 
+        {
+            "location": "/contributing/#contributing", 
+            "text": "Thank you for considering and taking the time to contribute!  The following are guidelines for contributing to this project.", 
+            "title": "Contributing"
+        }, 
+        {
+            "location": "/contributing/#code-of-conduct", 
+            "text": "This repository is governed by Mozilla's code of conduct and etiquette guidelines. For more details please see the  Mozilla Community Participation Guidelines  and  Developer Etiquette Guidelines .", 
+            "title": "Code of Conduct"
+        }, 
+        {
+            "location": "/contributing/#how-to-get-started", 
+            "text": "Please refer to installation and build instructions in the  install documentation .", 
+            "title": "How to Get Started"
+        }, 
+        {
+            "location": "/contributing/#how-to-report-bugs", 
+            "text": "Please open  a new issue in the appropriate GitHub repository  with steps to reproduce the problem you're experiencing.  Be sure to include as much information including screenshots, text output, and both your expected and actual results.", 
+            "title": "How to Report Bugs"
+        }, 
+        {
+            "location": "/contributing/#how-to-request-enhancements", 
+            "text": "First, please refer to the applicable  GitHub repository  and search  the repository's GitHub issues  to make sure your idea has not been (or is not still) considered. It may also be easier to see and search across all projects combined on our  Waffle.io planning board .  Then, please  create a new issue in the GitHub repository  describing your enhancement.  Be sure to include as much detail as possible including step-by-step descriptions, specific examples, screenshots or mockups, and reasoning for why the enhancement might be worthwhile.  Please keep in mind, by opening an issue we provide no guarantee the enhancement will be implemented.", 
+            "title": "How to Request Enhancements"
+        }, 
+        {
+            "location": "/contributing/#how-to-contribute-code", 
+            "text": "Before you get started writing code, be sure what you plan to work on is something we'll be able to accept. The easiest way is to look through out list of  good first issues  and find something that sounds interesting.  If there's something else you'd like to work on, just add a comment in the relevant issue and we'll be happy to discuss your plans. If you have an idea that doesn't have an issue at all, be sure to  file an issue  first.  Once you have a patch ready, submit a pull request and request a review from  @mozilla-lockbox/engineering . From there, we'll guide you through the review process to the eventual landing of your code! We aim to respond to all review requests within two business days.", 
+            "title": "How to Contribute Code"
+        }, 
+        {
+            "location": "/install/", 
+            "text": "Installing the Lockbox extension\n\n\nInstalling dependencies\n\n\nTo \ninstall the project dependencies\n, you can run:\n\n\nnpm install\n\n\n\n\nBuilding the source code\n\n\nTo \nbuild the project\n, you can run:\n\n\nnpm run build\n\n\n\n\nThis puts all the necessary files in the \ndist/\n directory, which you can then\ntemporarily load into Firefox (e.g. \nabout:debugging\n).\n\n\nBuilding the extension\n\n\nTo \nbuild an extension .xpi\n, you can run:\n\n\nnpm run package\n\n\n\n\n:warning: The resulting add-on is unsigned and likely won't work on release\nversions of Firefox. You can flip the \nxpinstall.signatures.required\n preference\non other channels accordingly.\n\n\n:warning: In preparation for Firefox 57, legacy extensions are also disabled. So\nyou'll need to flip the \nextensions.legacy.enabled\n preference, too.\n\n\nRunning the extension\n\n\nTo \nrun the extension in a Firefox Nightly\n browser, you can run:\n\n\nnpm run run -- -b nightly\n\n\n\n\nThis will automatically create a fresh new user profile that will not persist\nbetween runs. This means the data will be lost every time.\n\n\nRunning the extension with a persistent profile\n\n\nTo \nrun the extension with a profile that persists\n between runs, you can\ncreate a new profile by browsing to \nabout:profiles\n.\n\n\nOnce you have a new profile created (no matter the location), you can tell jpm\n(via npm) to run using that profile \nand\n not to copy the profile temporarily\nso that any changes (e.g. adding new entries) will be saved:\n\n\nnpm run run -- -p PROFILE --no-copy\n\n\n\n\nThe PROFILE value may be a profile name or the path to the profile.\n\n\nNow, when you run using this profile, any data or settings you make to the\nbrowser itself or in Lockbox will be available for future runs.\n\n\nSetting npm run flags\n\n\nTo specify flags for \nrun\n to use regularly, use \nnpm config set jpm_runflags\n:\n\n\nnpm config set jpm_runflags=\n-b nightly -p PROFILE --no-copy\n\n\n\n\n\nThis way if you want to always test locally using an existing profile (with\nexample data) using Firefox Nightly, you can just run (without adding flags):\n\n\nnpm run run", 
+            "title": "Source Code"
+        }, 
+        {
+            "location": "/install/#installing-the-lockbox-extension", 
+            "text": "", 
+            "title": "Installing the Lockbox extension"
+        }, 
+        {
+            "location": "/install/#installing-dependencies", 
+            "text": "To  install the project dependencies , you can run:  npm install", 
+            "title": "Installing dependencies"
+        }, 
+        {
+            "location": "/install/#building-the-source-code", 
+            "text": "To  build the project , you can run:  npm run build  This puts all the necessary files in the  dist/  directory, which you can then\ntemporarily load into Firefox (e.g.  about:debugging ).", 
+            "title": "Building the source code"
+        }, 
+        {
+            "location": "/install/#building-the-extension", 
+            "text": "To  build an extension .xpi , you can run:  npm run package  :warning: The resulting add-on is unsigned and likely won't work on release\nversions of Firefox. You can flip the  xpinstall.signatures.required  preference\non other channels accordingly.  :warning: In preparation for Firefox 57, legacy extensions are also disabled. So\nyou'll need to flip the  extensions.legacy.enabled  preference, too.", 
+            "title": "Building the extension"
+        }, 
+        {
+            "location": "/install/#running-the-extension", 
+            "text": "To  run the extension in a Firefox Nightly  browser, you can run:  npm run run -- -b nightly  This will automatically create a fresh new user profile that will not persist\nbetween runs. This means the data will be lost every time.", 
+            "title": "Running the extension"
+        }, 
+        {
+            "location": "/install/#running-the-extension-with-a-persistent-profile", 
+            "text": "To  run the extension with a profile that persists  between runs, you can\ncreate a new profile by browsing to  about:profiles .  Once you have a new profile created (no matter the location), you can tell jpm\n(via npm) to run using that profile  and  not to copy the profile temporarily\nso that any changes (e.g. adding new entries) will be saved:  npm run run -- -p PROFILE --no-copy  The PROFILE value may be a profile name or the path to the profile.  Now, when you run using this profile, any data or settings you make to the\nbrowser itself or in Lockbox will be available for future runs.", 
+            "title": "Running the extension with a persistent profile"
+        }, 
+        {
+            "location": "/install/#setting-npm-run-flags", 
+            "text": "To specify flags for  run  to use regularly, use  npm config set jpm_runflags :  npm config set jpm_runflags= -b nightly -p PROFILE --no-copy   This way if you want to always test locally using an existing profile (with\nexample data) using Firefox Nightly, you can just run (without adding flags):  npm run run", 
+            "title": "Setting npm run flags"
+        }, 
+        {
+            "location": "/metrics/", 
+            "text": "Lockbox Metrics Plan\n\n\nLast Updated: Feb 19, 2018\n\n\n\n\n\n\n\nAnalysis\n\n\nCollection\n\n\nEvent Registration and Recording\n\n\n\n\n\n\nScalar Metrics\n\n\nList of Events Currently Recorded\n\n\nSketch of iOS Telemetry Plan\n\n\nReferences\n\n\n\n\n\n\n\nThis is the metrics collection plan for Lockbox. It documents all events currently collected through telemetry, as well those planned for collection but not currently implemented. It will be updated periodically to reflect all new and planned data collection.\n\n\nAnalysis\n\n\nData collection is done solely for the purpose of product development, improvement and maintenance. Specifically, it is done to help its creators examine the validity of the following hypothesis.\n\n\nCore Hypothesis: \nWe believe that people want the browser to do more than only remember their passwords.\n\n\nWe will know this to be true when:\n\n\n\n\n\n\nThe password generator is clicked 20% of the time a new entry is created. \nThis will indicate that users value the ability to create secure passwords.\n (Events regarding password generation will be added when feature development is complete)\n\n\n\n\n\n\n75% of Lockbox downloads result in a Firefox account attached. \nThis will indicate that users value secure storage for their credentials.\n We currently record the event \nfxaUpgrade\n to know whether a user has attached an Firefox account to their lockbox installation.\n\n\n\n\n\n\n60% of users choose to import their existing credentials from Firefox into Lockbox. \nThis will indicate that users trust lockbox more than the browser for managing their credentials.\n (Events regarding the importing of credentials from the firefox password manager will be added when feature development is complete)\n\n\n\n\n\n\nWe observe increased engagement with the management system (Create-Read-Update-Delete; CRUD) for users that import their credentials. \nThis will indicate that users value greater visibility into the number of accounts that they have.\n We currently record \nrender\n events when a user opens the credential manager.\n\n\n\n\n\n\nCRUD usage rates are comparable to Firefox login manager usage prior to lockbox installation. \nThis will indicate that users value Lockbox's credential management system, and use it to access credentials when they are needed.\n Firefox telemetry currently collects data on password autofill usage, which requires credentials be stored in the firefox password manager. We plan to compare lockbox credential usage (e.g. via the \nusernameCopied\n and \npasswordCopied\n lockbox events) to pre-lockbox autofill frequencies on a per-user basis.\n\n\n\n\n\n\n20% of Lockbox users access their datastore on more than 1 device, \nindicating that users value having a single datastore of credentials.\n\n\n\n\n\n\nOther questions we aim to answer through data collection, but are not directly related to the hypothesis above:\n\n\n\n\nDo people Save Passwords in Lockbox?\n\n\nHow many? (measured by count of items saved per user)\n\n\nHow often? (number of credentials saved per user per time interval)\n\n\n\n\n\n\nDo people create their own passwords or use Lockbox to generate them?\n\n\nRatio: (Number of times the PW generator is used when storing an item) / (number of credentials stored)\n\n\n\n\n\n\nWhen using the pw generator, do people create purely random passwords or customize them with their own input? (if this is going to be in the final design)\n\n\nDo people use the passwords they store on Lockbox?\n\n\nHow many times (per some unit of time) do stored credentials get filled?\n\n\nHow many times (per some unit of time) do stored credentials get copied?\n\n\n\n\n\n\nHow many times do users click to reveal a password?\n\n\nDo people continue to use Lockbox after first use?\n\n\nOut of those who install, how many use it more than once?\n\n\n\n\n\n\nWhere are the drop-off points in the user flow?\n\n\nDo the majority of people make it all the way through the setup process?\n\n\nOnce initially setup, do people continue to add credentials?\n\n\n\n\n\n\nDo people sync their passwords between Firefox instances?\n\n\nHow does syncing affect engagement?\n\n\n\n\n\n\n\n\nCollection\n\n\nAt this point, all measurements related to Lockbox will be made client-side. However, future releases will give users the option to sync their Lockbox data via an FxA account, at which point additional measurements will be logged server-side through the FxA data pipeline. We are not directly responsible for the measurements made through that mechanism.\n\n\nFor our internal alpha release, we will be making use of the public JavaScript API that allows recording and sending of event data and scalar data through an add-on. The API is documented here:\n\n\nhttps://firefox-source-docs.mozilla.org/toolkit/components/telemetry/telemetry/collection/events.html#the-api\n\n\nOnce events are logged in the client they should appear in \nabout:telemetry\n. From there they will be submitted in the main ping payload under \nprocesses.dynamic.events\n and available through the usual services (STMO and ATMO), as well as amplitude.\n\n\nEvent Registration and Recording\n\n\nThe events that we will record will conform to the structure expected by the telemetry pipeline. When the events are logged in telemetry they will be a list of:\n\n\n[timestamp, category, method, object, value, extra]\n\n\nThe API takes care of the timestamp for us. We just need to define \ncategory\n, \nmethod\n, \nobject\n and \nextra\n (\nvalue\n is optional and we won't use it).\n\n\nBecause we are using the API through an add-on it \nisn't\n necessary that we include an events.yaml file.\n\n\nInstead we will define our events by \nregistering\n them using a call to \nServices.telemetry.registerEvents(category, eventData)\n.\n\n\nHere's a breakdown of how a to register a typical event:\n\n\nServices.telemetry.registerEvents(\nevent_category\n, {\n    \nevent_name\n: {\n        methods: [\nclick\n, ... ], // types of events that can occur\n        objects: [\na_button\n, ... ], // objects event can occur on\n        extra: {\nkey\n: \nvalue\n, ... } // key-value pairs (strings)\n    }\n\n\n\n\nFor our purposes, we will use the \nextra\n field for a few purposes:\n\n\n\n\nTo log the UUID of the item that has been added or changed (e.g. \n\"item_id\": UUID\n)\n\n\nTo log the fields that are modified when an item is updated in the datastore (e.g. \n\"fields\": \"password,notes\"\n  (because the value has to be a string we will have to concat the fields that were updated somehow)\n\n\n\n\nOnce an event is registered, we can record it with:\n\n\nServices.telemetry.recordEvent(category, method, object, null, extra)\n\n\nWhen recording, we can use \nnull\n for \nvalue\n.\n\n\nSee the Events section for specific examples of event registration and recording.\n\n\nScalar recording\n\n\nWe use the js api for scalar recording as well. Here registration happens with the following syntax:\n\n\nServices.telemetry.registerScalars(category, {\n    \nscalar_name\n: {\n        kind: services.Telemetry.SCALAR_TYPE_COUNT, // SCALAR_TYPE_COUNT, SCALAR_TYPE_BOOLEAN. or SCALAR_TYPE_STRING\n        keyed: false,\n        record_on_release: false, // NEEDS TO BE SET TO RECORD ON RELEASE CHANNEL\n        expired: false,\n    }\n\n\n\n\nWe set scalar values in the following way:\n\n\nServices.telemetry.scalarSet(\n    \ncategory.scalar_name\n, value\n);\n\n\n\n\ne.g. \nlockboxV1.datastoreCount\n for the scalar name.\n\n\nWe can also use \nscalarAdd\n to increment a scalar value by some amount.\n\n\nScalar Metrics\n\n\nThese are the metrics we currently collect regarding the state of user datastores.\n\n\n\n\ndatastoreCount\n (integer). Current count of the number of items in the user's datastore. Note that this scalar is only updated when the user renders their full item list, either in the management view or in the doorhanger. So when testing whether this scalar is accurately updated, please re-render the item list.\n\n\n\n\nList of Events Currently Recorded\n\n\nAll events are currently implemented under the \ncategory: lockboxV2\n. The \nextra\n field contains \nitemid\n for events pertaining to a particular Lockbox item. They are listed and grouped together below based on the contents of the event's \nmethod\n field.\n\n\n\n\n\n\nstartup\n fires when the webextension is loaded. \nobjects\n: webextension. Note that this event fires whenever the browser is started, so is not indicative of direct user interaction with Lockbox.\n\n\n\n\n\n\niconClick\n fires when someone clicks the toolbar icon. \nobjects\n: toolbar\n\n\n\n\n\n\nrender\n events fire when the firstrun view (showing the initial Lockbox setup form), item manager or doorhanger (when implemented) are rendered. \nobjects\n: firstrun, manage, doorhanger\n\n\n\n\n\n\nitemAdding\n, \nitemUpdating\n, \nitemDeleting\n fire when a user clicks to submit a new item or edit or delete an existing item. \nobjects\n: addItemForm, updatingItemForm\n\n\n\n\n\n\nitemAdded\n, \nitemUpdated\n, \nitemDeleted\n fire after a successful add/update/delete action. \nobjects\n: addItemForm, updatingItemForm\n\n\n\n\n\n\nadded\n, \nupdated\n, \ndeleted\n fire when an item is added/updated/deleted in the backend datastore. Has itemid in the extra field. \nobjects\n: datastore\n\n\n\n\n\n\nitemSelected\n fires when a user clicks an item in the itemlist. \nobjects\n itemList  \n\n\n\n\n\n\nusernameCopied\n and \npasswordCopied\n fire when a user copies their username or password from an item. \nobjects\n: itemDetails\n\n\n\n\n\n\nfeedbackClick\n fires when the user clicks the \"Send Feedback\" button. \nobjects\n: manage\n\n\n\n\n\n\nfaqClick\n fires when the user clicks the \"FAQ\" button. \nobjects\n: manage\n\n\n\n\n\n\nresetRequested\n fires when the user clicks the \"Reset\" button in the Lockbox settings. \nobjects\n: settings\n\n\n\n\n\n\nresetCompleted\n fires when the user completes a reset of their Lockbox data in the Lockbox settings. \nobjects\n: settings\n\n\n\n\n\n\nfxaStart\n fires when a user clicks the sign-in or sign-up button from the manager or firstrun screen. used to log user initiating fxa auth process. \nobjects\n: welcomeSignin, manageAcctCreate, manageAcctSignin, unlockSignin\n\n\n\n\n\n\nfxaAuth\n has methods \nfxaUpgrade\n, \nfxaSignin\n and \nfxaSignout\n that fire when the user initially adds their fxa account to lockbox, signs in after having added their fxa account previously, or signs out of fxa. \nobject\n: accounts\n\n\n\n\n\n\nfxaFail\n fires when the fxa process fails \nobjects\n: accounts\n\n\n\n\n\n\nSketch of iOS Telemetry Plan\n\n\nThese events are based on the invisionapp design plan\n\n\n\n\n\n\nfxaStart\n fires when a user taps the sign-in or sign-up button from the welcome screen. used to log user initiating fxa auth process.\n\n\n\n\n\n\nfxaAuth\n has methods \nfxaSignin\n and \nfxaSignout\n that fire when the user signs into or out of their fxa account.\n\n\n\n\n\n\ntouchIdEnabled\n, \nfaceIdEnabled\n, \ntouchIdSkipped\n, \nfaceIdSkipped\n fire when a user successfully authorizes the use of touchID/faceID to unlock lockbox or taps to skip.\n\n\n\n\n\n\nbrowserEnabled\n fires when user successfully adds lockbox integration to their browser. \nobjects\n: \nfirefox\n, \nchrome\n, \nsafari\n\n\n\n\n\n\nusernameCopied\n and \npasswordCopied\n fire when a user copies their username or password from an item. \nobjects\n: itemList\n\n\n\n\n\n\nitemSelected\n fires when a user taps an item in the itemlist. \nobjects\n itemList\n\n\n\n\n\n\nitemShow\n fires when a user taps to view item details in the itemlist. \nobjects\n itemList\n\n\n\n\n\n\nsettingsTap\n fires when a user taps an entry on the settings page. \nobject\n will label the setting that was tapped\n\n\n\n\n\n\nsettingsChanged\n fires when a user toggles a changeable setting. \nobject\n will label the setting that was toggled\n\n\n\n\n\n\nfeedbackSent\n Fires when a user sends feedback through the feedback form.\n\n\n\n\n\n\n\n\nReferences\n\n\nDocs for the Public JS API that allows us to log events thru an add-on:\n\n\nhttps://firefox-source-docs.mozilla.org/toolkit/components/telemetry/telemetry/collection/events.html#the-api", 
+            "title": "Metrics"
+        }, 
+        {
+            "location": "/metrics/#lockbox-metrics-plan", 
+            "text": "Last Updated: Feb 19, 2018    Analysis  Collection  Event Registration and Recording    Scalar Metrics  List of Events Currently Recorded  Sketch of iOS Telemetry Plan  References    This is the metrics collection plan for Lockbox. It documents all events currently collected through telemetry, as well those planned for collection but not currently implemented. It will be updated periodically to reflect all new and planned data collection.", 
+            "title": "Lockbox Metrics Plan"
+        }, 
+        {
+            "location": "/metrics/#analysis", 
+            "text": "Data collection is done solely for the purpose of product development, improvement and maintenance. Specifically, it is done to help its creators examine the validity of the following hypothesis.  Core Hypothesis:  We believe that people want the browser to do more than only remember their passwords.  We will know this to be true when:    The password generator is clicked 20% of the time a new entry is created.  This will indicate that users value the ability to create secure passwords.  (Events regarding password generation will be added when feature development is complete)    75% of Lockbox downloads result in a Firefox account attached.  This will indicate that users value secure storage for their credentials.  We currently record the event  fxaUpgrade  to know whether a user has attached an Firefox account to their lockbox installation.    60% of users choose to import their existing credentials from Firefox into Lockbox.  This will indicate that users trust lockbox more than the browser for managing their credentials.  (Events regarding the importing of credentials from the firefox password manager will be added when feature development is complete)    We observe increased engagement with the management system (Create-Read-Update-Delete; CRUD) for users that import their credentials.  This will indicate that users value greater visibility into the number of accounts that they have.  We currently record  render  events when a user opens the credential manager.    CRUD usage rates are comparable to Firefox login manager usage prior to lockbox installation.  This will indicate that users value Lockbox's credential management system, and use it to access credentials when they are needed.  Firefox telemetry currently collects data on password autofill usage, which requires credentials be stored in the firefox password manager. We plan to compare lockbox credential usage (e.g. via the  usernameCopied  and  passwordCopied  lockbox events) to pre-lockbox autofill frequencies on a per-user basis.    20% of Lockbox users access their datastore on more than 1 device,  indicating that users value having a single datastore of credentials.    Other questions we aim to answer through data collection, but are not directly related to the hypothesis above:   Do people Save Passwords in Lockbox?  How many? (measured by count of items saved per user)  How often? (number of credentials saved per user per time interval)    Do people create their own passwords or use Lockbox to generate them?  Ratio: (Number of times the PW generator is used when storing an item) / (number of credentials stored)    When using the pw generator, do people create purely random passwords or customize them with their own input? (if this is going to be in the final design)  Do people use the passwords they store on Lockbox?  How many times (per some unit of time) do stored credentials get filled?  How many times (per some unit of time) do stored credentials get copied?    How many times do users click to reveal a password?  Do people continue to use Lockbox after first use?  Out of those who install, how many use it more than once?    Where are the drop-off points in the user flow?  Do the majority of people make it all the way through the setup process?  Once initially setup, do people continue to add credentials?    Do people sync their passwords between Firefox instances?  How does syncing affect engagement?", 
+            "title": "Analysis"
+        }, 
+        {
+            "location": "/metrics/#collection", 
+            "text": "At this point, all measurements related to Lockbox will be made client-side. However, future releases will give users the option to sync their Lockbox data via an FxA account, at which point additional measurements will be logged server-side through the FxA data pipeline. We are not directly responsible for the measurements made through that mechanism.  For our internal alpha release, we will be making use of the public JavaScript API that allows recording and sending of event data and scalar data through an add-on. The API is documented here:  https://firefox-source-docs.mozilla.org/toolkit/components/telemetry/telemetry/collection/events.html#the-api  Once events are logged in the client they should appear in  about:telemetry . From there they will be submitted in the main ping payload under  processes.dynamic.events  and available through the usual services (STMO and ATMO), as well as amplitude.", 
+            "title": "Collection"
+        }, 
+        {
+            "location": "/metrics/#event-registration-and-recording", 
+            "text": "The events that we will record will conform to the structure expected by the telemetry pipeline. When the events are logged in telemetry they will be a list of:  [timestamp, category, method, object, value, extra]  The API takes care of the timestamp for us. We just need to define  category ,  method ,  object  and  extra  ( value  is optional and we won't use it).  Because we are using the API through an add-on it  isn't  necessary that we include an events.yaml file.  Instead we will define our events by  registering  them using a call to  Services.telemetry.registerEvents(category, eventData) .  Here's a breakdown of how a to register a typical event:  Services.telemetry.registerEvents( event_category , {\n     event_name : {\n        methods: [ click , ... ], // types of events that can occur\n        objects: [ a_button , ... ], // objects event can occur on\n        extra: { key :  value , ... } // key-value pairs (strings)\n    }  For our purposes, we will use the  extra  field for a few purposes:   To log the UUID of the item that has been added or changed (e.g.  \"item_id\": UUID )  To log the fields that are modified when an item is updated in the datastore (e.g.  \"fields\": \"password,notes\"   (because the value has to be a string we will have to concat the fields that were updated somehow)   Once an event is registered, we can record it with:  Services.telemetry.recordEvent(category, method, object, null, extra)  When recording, we can use  null  for  value .  See the Events section for specific examples of event registration and recording.", 
+            "title": "Event Registration and Recording"
+        }, 
+        {
+            "location": "/metrics/#scalar-recording", 
+            "text": "We use the js api for scalar recording as well. Here registration happens with the following syntax:  Services.telemetry.registerScalars(category, {\n     scalar_name : {\n        kind: services.Telemetry.SCALAR_TYPE_COUNT, // SCALAR_TYPE_COUNT, SCALAR_TYPE_BOOLEAN. or SCALAR_TYPE_STRING\n        keyed: false,\n        record_on_release: false, // NEEDS TO BE SET TO RECORD ON RELEASE CHANNEL\n        expired: false,\n    }  We set scalar values in the following way:  Services.telemetry.scalarSet(\n     category.scalar_name , value\n);  e.g.  lockboxV1.datastoreCount  for the scalar name.  We can also use  scalarAdd  to increment a scalar value by some amount.", 
+            "title": "Scalar recording"
+        }, 
+        {
+            "location": "/metrics/#scalar-metrics", 
+            "text": "These are the metrics we currently collect regarding the state of user datastores.   datastoreCount  (integer). Current count of the number of items in the user's datastore. Note that this scalar is only updated when the user renders their full item list, either in the management view or in the doorhanger. So when testing whether this scalar is accurately updated, please re-render the item list.", 
+            "title": "Scalar Metrics"
+        }, 
+        {
+            "location": "/metrics/#list-of-events-currently-recorded", 
+            "text": "All events are currently implemented under the  category: lockboxV2 . The  extra  field contains  itemid  for events pertaining to a particular Lockbox item. They are listed and grouped together below based on the contents of the event's  method  field.    startup  fires when the webextension is loaded.  objects : webextension. Note that this event fires whenever the browser is started, so is not indicative of direct user interaction with Lockbox.    iconClick  fires when someone clicks the toolbar icon.  objects : toolbar    render  events fire when the firstrun view (showing the initial Lockbox setup form), item manager or doorhanger (when implemented) are rendered.  objects : firstrun, manage, doorhanger    itemAdding ,  itemUpdating ,  itemDeleting  fire when a user clicks to submit a new item or edit or delete an existing item.  objects : addItemForm, updatingItemForm    itemAdded ,  itemUpdated ,  itemDeleted  fire after a successful add/update/delete action.  objects : addItemForm, updatingItemForm    added ,  updated ,  deleted  fire when an item is added/updated/deleted in the backend datastore. Has itemid in the extra field.  objects : datastore    itemSelected  fires when a user clicks an item in the itemlist.  objects  itemList      usernameCopied  and  passwordCopied  fire when a user copies their username or password from an item.  objects : itemDetails    feedbackClick  fires when the user clicks the \"Send Feedback\" button.  objects : manage    faqClick  fires when the user clicks the \"FAQ\" button.  objects : manage    resetRequested  fires when the user clicks the \"Reset\" button in the Lockbox settings.  objects : settings    resetCompleted  fires when the user completes a reset of their Lockbox data in the Lockbox settings.  objects : settings    fxaStart  fires when a user clicks the sign-in or sign-up button from the manager or firstrun screen. used to log user initiating fxa auth process.  objects : welcomeSignin, manageAcctCreate, manageAcctSignin, unlockSignin    fxaAuth  has methods  fxaUpgrade ,  fxaSignin  and  fxaSignout  that fire when the user initially adds their fxa account to lockbox, signs in after having added their fxa account previously, or signs out of fxa.  object : accounts    fxaFail  fires when the fxa process fails  objects : accounts", 
+            "title": "List of Events Currently Recorded"
+        }, 
+        {
+            "location": "/metrics/#sketch-of-ios-telemetry-plan", 
+            "text": "These events are based on the invisionapp design plan    fxaStart  fires when a user taps the sign-in or sign-up button from the welcome screen. used to log user initiating fxa auth process.    fxaAuth  has methods  fxaSignin  and  fxaSignout  that fire when the user signs into or out of their fxa account.    touchIdEnabled ,  faceIdEnabled ,  touchIdSkipped ,  faceIdSkipped  fire when a user successfully authorizes the use of touchID/faceID to unlock lockbox or taps to skip.    browserEnabled  fires when user successfully adds lockbox integration to their browser.  objects :  firefox ,  chrome ,  safari    usernameCopied  and  passwordCopied  fire when a user copies their username or password from an item.  objects : itemList    itemSelected  fires when a user taps an item in the itemlist.  objects  itemList    itemShow  fires when a user taps to view item details in the itemlist.  objects  itemList    settingsTap  fires when a user taps an entry on the settings page.  object  will label the setting that was tapped    settingsChanged  fires when a user toggles a changeable setting.  object  will label the setting that was toggled    feedbackSent  Fires when a user sends feedback through the feedback form.", 
+            "title": "Sketch of iOS Telemetry Plan"
+        }, 
+        {
+            "location": "/metrics/#references", 
+            "text": "Docs for the Public JS API that allows us to log events thru an add-on:  https://firefox-source-docs.mozilla.org/toolkit/components/telemetry/telemetry/collection/events.html#the-api", 
+            "title": "References"
+        }
+    ]
+}
